@@ -33,11 +33,15 @@ public class StudentDetails {
 
 		@Override
 		public int compare(StudentDetails o1, StudentDetails o2) {
-			
+			//for accending order
 			//return o1.getname().compareTo(o2.getname());
+			
+			//for decending order
 			return o2.getname().compareTo(o1.getname());
-		}
+			
+			
 	};
+	
 	
 
 }
